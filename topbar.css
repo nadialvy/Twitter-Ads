@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(52, 65, 109); */
+    height: 1000px;
+    overflow-x: hidden;
+}
+
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: #1B2836;
+    font-size: 16px;
+    line-height: 50px;  
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.left .fab{
+    color: #fff;
+    float: left;
+    line-height: 50px;
+}
+
+.left .ads{
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.content .left {
+    position: relative;
+    right: 150px;
+}
+
+.content .right{
+    position: relative;
+    left: 150px;
+}
+
+.content .left .ads{
+    margin-right: 8px;
+}
+
+.content .right .help{
+    margin-right: 8px;
+}
+
+.content .right .username{
+    margin-right: 8px;
+}
+
+.content .right .fas{
+    margin-right: 8px;
+}
+
+/*header*/
+.header{
+    background-image: url(asset/header.png);
+    height: 225px;
+    background-size: cover;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.header-content{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.header-p{
+    line-height: 1px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+/* main */
+.main{
+    /* border: 1px solid black; */
+    padding: 20px 250px;
+}
+
+
+.main-content form label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-content .title{
+    font-size: 25px;
+}
+
+.main-content .desc{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.form{
+    /* border: 1px solid black; */
+}
+
+.select-style{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgba(153, 153, 153, 0.295);
+    /* background-color: #eee; */
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(96, 183, 218);
+    color: white;
+    font-weight: 800;
+}
+
+button:hover{
+    background-color: rgb(75, 155, 187);
+}
+
+button span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* main end */
+
+.line{
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 90%;
+    height: 1px;
+    margin: 30px auto;
+}
+
+/* footer */
+.footer{
+    /* border: 1px solid black; */
+    padding: 50px;
+}
+
+.footer-header h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+.footer-content{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-areas: "image image image"
+                         "title title title"
+                         "desc desc desc";
+    grid-template-columns: repeat (3, 1fr );
+    grid-template-rows: 50px 30px 50px;
+}
+
+.board .title{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.board .desc{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+
+
+
+
+
+
